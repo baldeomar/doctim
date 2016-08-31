@@ -1,0 +1,41 @@
+div#wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding: inherit;
+}
+
+.loginPanel{
+    width: 83px;
+    margin: 0px;
+    padding: inherit;
+}
+
+.topMenuPanel{
+    height: 128px;
+    margin: 0px;
+    padding: inherit;
+    display: block;
+}
+
+.logo{
+    width: 256px;
+}
+
+.mainMenu{
+    padding-top: 80px;
+}
+
+.menuText{
+    width: 124px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1px;
+    background-color: #2aabd2;
+}
+
+.menuText span {
+    display: inline-block;
+    padding-top: 7%;
+}
