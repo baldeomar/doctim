@@ -4,7 +4,9 @@
         <div class="container">
             <div>
                 <div class="loginPanel pull-right"><spring:message code="main.login"></spring:message></div>
-                <div class="loginPanel pull-right"><spring:message code="main.register"></spring:message></div>
+                <a href="/register/pre">
+                    <div class="loginPanel pull-right"><spring:message code="main.register"></spring:message></div>
+                </a>
             </div>
         </div>
     </div>
@@ -12,11 +14,13 @@
         <div class="container">
             <div>
                 <div class="topMenuPanel">
-                    <div class="logo pull-left">
-                        <img src="/resources/images/logo_doctim.png" />
-                    </div>
+                    <a href="/home">
+                        <div class="logo pull-left">
+                            <img src="/resources/images/logo_doctim.png" />
+                        </div>
+                    </a>
                     <div class="mainMenu">
-                        <a href="google.fr"><div class="menuText pull-left"><span><spring:message code="menu.text.calendar"></spring:message></span></div></a>
+                        <div class="menuText pull-left"><span><spring:message code="menu.text.calendar"></spring:message></span></div>
                         <div class="menuText pull-left"><span><spring:message code="menu.text.alimentation"></spring:message></span></div>
                         <div class="menuText pull-left"><spring:message code="menu.text.preparation.naissance"></spring:message></div>
                         <div class="menuText pull-left"><spring:message code="menu.text.bons.plans"></spring:message></div>

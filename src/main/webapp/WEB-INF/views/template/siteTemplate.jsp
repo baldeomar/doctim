@@ -6,8 +6,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <link rel="stylesheet" href="<c:url value='/resources/css/doctim.css' />">
         <link rel="stylesheet" href="<c:url value='/resources/css/bootstrap.css' />">
+        <link rel="stylesheet" href="<c:url value='/resources/css/doctim.css' />">
         <title><spring:message code="main.title"></spring:message></title>
     </head>
     <body>
@@ -16,7 +16,20 @@
         </header>
 
         <section id="site-content">
-            <tiles:insertAttribute name="body" />
+            <div id="wrapper">
+                <div class="container">
+                    <div class="form-group">
+                        <div id="bodyBloc">
+                            <div id="bodyPanelLeft">
+                                <tiles:insertAttribute name="panel" />
+                            </div>
+                            <div id="bodyContent">
+                                <tiles:insertAttribute name="body" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <footer id="footer">

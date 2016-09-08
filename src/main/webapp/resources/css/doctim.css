@@ -1,7 +1,66 @@
-div#wrapper {
+#wrapper {
     width: 1170px;
     margin: 0 auto;
     padding: inherit;
+}
+
+body{
+    background-color: #E8E8E8;
+}
+
+.error {
+    color: #c9302c;
+}
+
+.errorInput{
+    border:1px solid #c9302c;
+}
+
+h1{
+    text-align: center;
+}
+
+#bodyBloc{
+    min-height: 500px;
+    margin: 0 auto;
+    border: solid 1px;
+    display: flex;
+}
+
+#bodyPanelLeft{
+    width: 255px;
+    height: 496px;
+    margin: 1px;
+    border: inherit;
+    float: left;
+}
+
+#bodyContent{
+    width: 878px;
+    min-height: 496px;
+    margin: 1px;
+    border: inherit;
+    float: right;
+}
+
+#registerBloc {
+    width: 335px;
+    margin: 0 auto;
+    padding: inherit;
+    display: block;
+}
+
+.bodyLine{
+    width: 100%;
+    min-height: 230px;
+    border: inherit;
+    margin: 1px;
+}
+
+.customRow{
+    margin-left: -15px;
+    margin-right: -15px;
+    min-height: 20px;
 }
 
 .loginPanel{
@@ -22,7 +81,7 @@ div#wrapper {
 }
 
 .mainMenu{
-    padding-top: 80px;
+    padding-top: 75px;
 }
 
 .menuText{
@@ -30,7 +89,6 @@ div#wrapper {
     height: 40px;
     text-align: center;
     display: inline-block;
-    vertical-align: middle;
     margin: 1px;
     background-color: #2aabd2;
 }
@@ -38,4 +96,18 @@ div#wrapper {
 .menuText span {
     display: inline-block;
     padding-top: 7%;
+}
+
+.footerText span {
+    display: inline-block;
+    padding-top: 4%;
+}
+
+.footerText{
+    width: 283px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin: 1px;
+    background-color: #2aabd2;
 }
