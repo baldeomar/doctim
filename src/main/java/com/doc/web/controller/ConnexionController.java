@@ -52,4 +52,9 @@ public class ConnexionController {
         utilisateurService.save(utilisateur);
         return PageMapper.HOME;
     }
+
+    @RequestMapping(value = ApplicationUrl.LOGIN_PRE, method = RequestMethod.GET)
+    public String getLoginForm(){
+        return PageMapper.LOGIN;
+    }
 }

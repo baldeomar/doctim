@@ -7,7 +7,7 @@
 </head>
     <body>
         <div class="absolute-center is-Responsive">
-            <div id="registerBloc">
+            <div id="contentBloc">
                 <h1><spring:message code="inscription.page.titre"></spring:message></h1>
                 <form:form method="POST" modelAttribute="userForm" action="${registerSubmitUrl}">
                     <div class="customRow">
@@ -34,8 +34,8 @@
                         <a id="annuler" class="btn btn-sm btn-danger" href="${cancelUrl}"><spring:message code="main.annuler"></spring:message></a>
                         </div>
                     </div>
-            </form:form>
-        </div>
+                </form:form>
+            </div>
         </div>
     </body>
 </html>

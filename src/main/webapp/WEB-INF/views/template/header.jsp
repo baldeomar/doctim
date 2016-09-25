@@ -3,7 +3,9 @@
     <div class="row">
         <div class="container">
             <div>
-                <div class="loginPanel pull-right"><spring:message code="main.login"></spring:message></div>
+                <a href="/login/pre">
+                    <div class="loginPanel pull-right"><spring:message code="main.login"></spring:message></div>
+                </a>
                 <a href="/register/pre">
                     <div class="loginPanel pull-right"><spring:message code="main.register"></spring:message></div>
                 </a>
